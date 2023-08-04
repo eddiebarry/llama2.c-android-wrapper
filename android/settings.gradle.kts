@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Llama2"
+rootProject.name = "Story Generator"
 include(":app")
  

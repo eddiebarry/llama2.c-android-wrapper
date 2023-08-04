@@ -1,0 +1,7 @@
+android/.gradle
+android/.idea
+android/app/.cxx
+.idea/codeStyles
+.idea/llama2.c-android-wrapper.iml
+.idea/modules.xml
+.idea/vcs.xml

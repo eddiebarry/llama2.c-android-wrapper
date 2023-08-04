@@ -7,6 +7,7 @@ import com.celikin.llama2.databinding.ActivityMainBinding
 import com.celikin.llama2.wrapper.InferenceRunner
 import com.celikin.llama2.wrapper.InferenceRunnerManager
 import kotlinx.coroutines.launch
+import android.util.Log
 
 class MainActivity : AppCompatActivity() {
 
@@ -39,6 +40,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun updateText(token: String) {
+        Log.e("debug app",token)
         binding.sampleText.text = "${binding.sampleText.text}$token"
     }
 

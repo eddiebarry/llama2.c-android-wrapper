@@ -10,7 +10,7 @@
         android:id="@+id/prompt_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="story about teddy bear"
+        android:text="Once upon a time there lived a princess called Snow White"
         android:padding="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,7 +20,7 @@
         android:id="@+id/regenerate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="generate new text"
+        android:text="Continue Generating Story"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/prompt_edit" />
